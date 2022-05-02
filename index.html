@@ -21,27 +21,27 @@
     <!-- Body  -->
     <section id="body">
         <div class="choices-div">
-            <button class="rock choice"></button>
-            <button class="paper choice"></button>
-            <button class="scissor choice"></buttonc>
+            <button value="1" class="rock choice"></button>
+            <button value="2" class="paper choice"></button>
+            <button value="3" class="scissor choice"></buttonc>
         </div>
 
         <!-- Battle  -->
         <div class="battle-div">
-            <img class="battle-image" src="images/fist.png" alt="">
+            <img id="player" class="battle-image" src="images/fist.png" alt="">
             <h2 class="vs-heading">VS</h2>
-            <img class="battle-image" src="images/palm.png" alt="">
+            <img id="cpu" class="battle-image" src="images/palm.png" alt="">
 
         </div>
     </section>
 
     <footer>
-        <h2 class="footer-h2">PLAY LIKE A MAN!</h2>
+        <h2 class="footer-h2"> <span id="playerScore">0</span>  -  <span id="cpuScore">0</span></h2>
     </footer>
 
 
 
-
+<script src="index.js"></script>
 </body>
 
 </html>
